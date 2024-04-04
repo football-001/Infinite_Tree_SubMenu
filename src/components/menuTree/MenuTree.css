@@ -1,0 +1,29 @@
+.tree-menu {
+  font-family: Arial, sans-serif;
+}
+
+.menu-item {
+  margin-bottom: 5px;
+}
+
+.menu-item a {
+  color: #481E14;
+}
+
+.menu-item span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 22px;
+  border-radius: 5px;
+  background-color: #FFF2E1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.menu-item span:hover {
+  background-color: #dcdcdc;
+}
+
+.menu-sub-items {
+  margin-left: 20px;
+}
